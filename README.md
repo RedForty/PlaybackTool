@@ -19,6 +19,8 @@ end frame of the last scrub or playback.
 
 
 ## Installation:
+Place the **playbackTool.py** file in your _~/maya/scripts_ folder.
+
 3 hotkeys need to be made - PRESS, RELEASE, and Toggle.
 
 The preferred hotkey for PRESS and RELEASE is Space. 
