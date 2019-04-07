@@ -5,6 +5,7 @@ A simple hotkey setup to mimic the playback and scrub functionality of proprieta
 
 Originally written by Joe Holmark then ~~expanded~~ messed with by Daniel Klug.
 
+![Demo](https://i.imgur.com/k7HgUfm.gif)
 
 ## Usage:
 PlaybackTool will play/pause playback with a **quick tap**. If you **press and hold**
@@ -29,7 +30,7 @@ For the toggle, use shift-space.
 
 ```python
 #PRESS
-from PlaybackTool import playbackTool
+import playbackTool
 playbackTool.press()
 ```
 
@@ -39,12 +40,10 @@ playbackTool.release()
 ```
 ```python
 #Toggle
-from PlaybackTool import playbackTool
+import playbackTool
 playbackTool.toggle()
 ```
 
 
 ## Current limitation:
-- PlaybackTool will not yet register manual clicks or scrubs in the timeline for the toggle functionality to work.
 - PlaybackTool flashes in&out of the scrub context when quick-tapping.
-
