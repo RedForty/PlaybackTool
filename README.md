@@ -29,7 +29,7 @@ For the toggle, use shift-space.
 
 ```python
 #PRESS
-from PlaybackTool import playbackTool
+import playbackTool
 playbackTool.press()
 ```
 
@@ -39,7 +39,7 @@ playbackTool.release()
 ```
 ```python
 #Toggle
-from PlaybackTool import playbackTool
+import playbackTool
 playbackTool.toggle()
 ```
 
